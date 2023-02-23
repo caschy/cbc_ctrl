@@ -15,6 +15,8 @@ To populate this board, you’ll need the following components:
 1 x 5 or 6 pin header
 1 x Lipo battery (optional)
 
+PCBS can be purchased here <a  href="http://cutby.caschy.com/wp/?product=caschy-controller-diesel-heater-remote-controller">CbC controller pcb purchase</a>
+
 The software is working however I am working to make sure the thermostat mode is working 100%.  
 
 ***Disclaimer***
