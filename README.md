@@ -18,6 +18,11 @@ To populate this board, you’ll need the following components:
 
 You will also need some wiring to interface/solder directly to your 4 button remote control.  
 
+You can dowload the compiled bin file and upload it to your board using the following instructions: https://www.aranacorp.com/en/generating-and-uploading-bin-files-for-esp32/
+
+If you want to modify the source, you will find the code in the two folders (.ino files).  Software requires the following libraries to compile the code via Arduino IDE: Adafruit_HTU21DF.h, RTClib.h, TFT_eSPI.h, SPI.h, EEPROM.h, WiFi.h, WebServer.h, WiFiManager.h, Preferences.h, Update.h  
+Of course you'll need to add and setup the board in your IDE.  Please follow the instructions here: https://oneguyoneblog.com/2020/09/28/lilygo-ttgo-t-display-esp32-with-tft-lcd/
+
 NOTE: this only works with the standard 4 button RF Remote control.
 
 PCBS can be purchased here <a  href="http://cutby.caschy.com/wp/?product=caschy-controller-diesel-heater-remote-controller">CbC controller pcb purchase</a>
