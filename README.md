@@ -16,6 +16,10 @@ To populate this board, you’ll need the following components:
 <li>1 x 5 or 6 pin header </li>
 <li>1 x Lipo battery (optional) </li> </ul>
 
+You will also need some wiring to interface/solder directly to your 4 button remote control.  
+
+NOTE: this only works with the standard 4 button RF Remote control.
+
 PCBS can be purchased here <a  href="http://cutby.caschy.com/wp/?product=caschy-controller-diesel-heater-remote-controller">CbC controller pcb purchase</a>
 
 The software is working however I am working to make sure the thermostat mode is working 100%.  
