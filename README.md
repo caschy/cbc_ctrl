@@ -1,4 +1,4 @@
-# cbc_ctrl
+# CutbyCaschy (CbC) Ctrl
 
 CutbyCaschy (CbC) Ctrl for diesel heater. Piggy-back interface to 4button RF remote
 
