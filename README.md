@@ -13,7 +13,7 @@ To populate this board, you’ll need the following components:
 <li>1 x 16-pin DIP socket </li>
 <li>1 x Sharp PC847 </li>
 <li>3 x 4pin headers </li>
-<li>1 x 5 or 6 pin header </li>
+<li>1 x 6 pin header </li>
 <li>1 x Lipo battery (optional) </li> </ul>
 
 You will also need some wiring to interface/solder directly to your 4 button remote control.  
