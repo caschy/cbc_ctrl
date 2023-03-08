@@ -1,8 +1,8 @@
 //#####################################
 //##                                 ##
 //## Diesel Heater Remote Controller ##
-//## By Caschy 2/2023                ##
-//## v2. portable                    ##
+//## By Caschy 3/2023                ##
+//## v4. portable-cel                ##
 //#####################################
 #include <Wire.h>
 #include "Adafruit_HTU21DF.h" 
@@ -1218,13 +1218,8 @@ void handle_readDATA() {
   else {
    htmlminute=String(htmlnow.minute());
   }
-  if ((mymonth >=3) && (mymonth <= 10)) {
-   tm = String(htmlnow.hour()+1)+":"+htmlminute;
-  }
-   else {
-    tm = String(htmlnow.hour())+":"+htmlminute;
-  }
-
+  tm = String(htmlnow.hour())+":"+htmlminute;
+  
   //get battery voltage
   readBattery();
   
