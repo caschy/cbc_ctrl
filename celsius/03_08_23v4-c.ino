@@ -1595,12 +1595,7 @@ void setup() {
     targYear = int(n.year());
     targMonth = int(n.month());
     targDay = int(n.day());
-    if ((mymonth >=3) && (mymonth <= 10)) {
-       targHour = int(n.hour())+1;
-    }
-    else {
-       targHour = int(n.hour());
-    }
+    targHour = int(n.hour());
     targMinute = int(n.minute());
   }
   //Setup button inputs and attach interrupt functions
