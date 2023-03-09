@@ -1594,12 +1594,7 @@ void setup() {
     targYear = int(n.year());
     targMonth = int(n.month());
     targDay = int(n.day());
-    if ((mymonth >=3) && (mymonth <= 10)) {
-       targHour = int(n.hour())+1;
-    }
-    else {
-       targHour = int(n.hour());
-    }
+    targHour = int(n.hour());
     targMinute = int(n.minute());
   }
   //Setup button inputs and attach interrupt functions
@@ -2089,12 +2084,7 @@ void loop() {
        targYear = int(future.year());
        targMonth = int(future.month());
        targDay = int(future.day());
-       if ((mymonth >=3) && (mymonth <= 10)) {
-          targHour = int(future.hour())+1;
-       }
-       else {
-          targHour = int(future.hour());
-       }
+       targHour = int(future.hour());
        targMinute = int(future.minute());
        targUnix = rtc.now().unixtime() + 1140;
        timerSet = true;
@@ -2112,12 +2102,7 @@ void loop() {
        targYear = int(future.year());
        targMonth = int(future.month());
        targDay = int(future.day());
-       if ((mymonth >=3) && (mymonth <= 10)) {
-          targHour = int(future.hour())+1;
-       }
-       else {
-          targHour = int(future.hour());
-       }
+       targHour = int(future.hour());
        targMinute = int(future.minute());
        targUnix = rtc.now().unixtime() + 2340;
        timerSet = true;
@@ -2135,12 +2120,7 @@ void loop() {
        targYear = int(future.year());
        targMonth = int(future.month());
        targDay = int(future.day());
-       if ((mymonth >=3) && (mymonth <= 10)) {
-          targHour = int(future.hour())+1;
-       }
-       else {
-          targHour = int(future.hour());
-       }
+       targHour = int(future.hour());
        targMinute = int(future.minute());
        targUnix = rtc.now().unixtime() + 3540; 
        timerSet = true;
@@ -2158,12 +2138,7 @@ void loop() {
        targYear = int(future.year());
        targMonth = int(future.month());
        targDay = int(future.day());
-       if ((mymonth >=3) && (mymonth <= 10)) {
-          targHour = int(future.hour())+1;
-       }
-       else {
-          targHour = int(future.hour());
-       }
+       targHour = int(future.hour());
        targMinute = int(future.minute());
        targUnix = rtc.now().unixtime() + 7140;
        timerSet = true;
